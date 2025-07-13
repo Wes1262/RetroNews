@@ -1,4 +1,4 @@
-<img src="./embeds/logo96.png" style="float:left;margin-right:1em">
+<img src="./embeds/logo96.png" align="right">
 
 # Retronews
 
