@@ -1,16 +1,19 @@
-<img src="./embeds/logo96.png" align="right">
+<img src="./embeds/logo192.png" align="right">
 
-# Retronews
+# RetroNews
 
-Retro computing news and guides archive.
+**Retro computing news and guides archive**
 
-## Why?
+------------------------------------------------------------------------------------------------------------------------
 
-Retro computer information has been steadily disappearing from the internet. While _archive.org_ does an excellent job
-most of the time, archived pages can sometimes fail to save correctly or become unusable later on. This often happens
-due to the heavy use of JavaScript on these sites or, in some cases, major hardware failures at _archive.org_. With
-this repository, we aim to manually preserve interesting news articles, guides, and resources for retro computing
+**Retro computer information has been steadily disappearing from the internet.** While _archive.org_ does an excellent
+job most of the time, archived pages can sometimes fail to save correctly or become unusable later on. This often
+happens due to the heavy use of JavaScript on these sites or, in some cases, major hardware failures at _archive.org_.
+With this repository, we aim to manually preserve interesting news articles, guides, and resources for retro computing
 enthusiasts, ensuring they remain accessible even when the original pages are lost.
+
+<small>**Note:** despite sharing similar goals to _The Retro Web_'s, and despite having a deliberately similar logo,
+this repository is in no way affiliated with them. </small>
 
 ## How to archive a news page or a guide?
 
@@ -56,3 +59,10 @@ enthusiasts, ensuring they remain accessible even when the original pages are lo
 
    Wrap Line Length of 128
 ```
+
+
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | <img src="./embeds/logo96.png" width="50%" height="10">  |
+| Content Cell  | <img src="./embeds/logo96.png" width="100%" height="10">  |
