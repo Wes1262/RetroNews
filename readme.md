@@ -1,10 +1,10 @@
-<img src="./embeds/logo192.png" align="right">
+**Retro computing news and guides archive**
 
 # RetroNews
 
-**Retro computing news and guides archive**
-
 ------------------------------------------------------------------------------------------------------------------------
+
+<img src="./embeds/logo192.png" align="right">
 
 **Retro computer information has been steadily disappearing from the internet.** While _archive.org_ does an excellent
 job most of the time, archived pages can sometimes fail to save correctly or become unusable later on. This often
