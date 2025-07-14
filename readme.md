@@ -49,10 +49,10 @@ this project is in no way affiliated with them. </small>
 ```
 # Article or guide title using the original language and formatting
 
-**Archived URL:** https://www.anandtech.com/show/970 <!-- Preferably a permalink if any. -->
-**Date:** YYYY-MM-DD                                 <!-- ISO Date. -->
+**Archived URL:** https://www.anandtech.com/show/970 <!-- Preferably a permalink, if any. -->
+**Date:** YYYY-MM-DD                                 <!-- ISO Date... no 'murican dates. -->
 **Author:** John Titor                               <!-- The author, or the site name. -->
-**Keywords:** `review` `9700` `ati`                  <!-- Lower case keywords to facilitate search. -->
+**Keywords:** `review` `9700` `ati`                  <!-- Lowercase keywords to ease search. -->
 
 ```
 
