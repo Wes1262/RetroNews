@@ -1,6 +1,6 @@
-**Retro computing news and guides archive**
-
 # RetroNews
+
+**Retro computing news and guides archive**
 
 ------------------------------------------------------------------------------------------------------------------------
 
