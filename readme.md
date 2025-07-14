@@ -9,11 +9,11 @@
 **Retro computer information has been steadily disappearing from the internet.** While _archive.org_ does an excellent
 job most of the time, archived pages can sometimes fail to save correctly or become unusable later on. This often
 happens due to the heavy use of JavaScript on these sites or, in some cases, major hardware failures at _archive.org_.
-With this repository, we aim to manually preserve interesting news articles, guides, and resources for retro computing
-enthusiasts, ensuring they remain accessible even when the original pages are lost.
+**With this repository, we aim to manually preserve interesting news articles, guides, and resources for retro computing
+enthusiasts, ensuring they remain accessible even when the original pages are lost.**
 
 <small>**Note:** despite sharing similar goals to _The Retro Web_'s, and despite having a deliberately similar logo,
-this repository is in no way affiliated with them. </small>
+this project is in no way affiliated with them. </small>
 
 ## How to archive a news page or a guide?
 
@@ -49,16 +49,14 @@ this repository is in no way affiliated with them. </small>
 ```
 # Article or guide title using the original language and formatting
 
-**Site:** anandtech.com
-**Date:** YYYY-MM-DD HH:SS
-**Author:** Author
-**Archived URL:** https://www.anandtech.com/show/970
-**Keywords:** `review` `9700` `pro` `ati`
+**Archived URL:** https://www.anandtech.com/show/970 <!-- Preferably a permalink if any. -->
+**Date:** YYYY-MM-DD                                 <!-- ISO Date. -->
+**Author:** John Titor                               <!-- The author, or the site name. -->
+**Keywords:** `review` `9700` `ati`                  <!-- Lower case keywords to facilitate search. -->
 
-
-
-   Wrap Line Length of 128
 ```
+
+
 
 
 
