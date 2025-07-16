@@ -182,7 +182,7 @@ Instead, block images must be centered and their width should be determined auto
 
 ```html
 <div align="center">
-    <img src="./attachments/thumbnails/Radeon-9700-Pro-box.jpg"
+    <img src="./attachments/Radeon-9700-Pro-box.jpg"
         alt="ATI Radeon 9700 Pro">
 </div>
 ```
