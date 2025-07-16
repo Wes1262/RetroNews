@@ -166,7 +166,7 @@ Instead, block images must be centered and their width should be determined auto
 
 ```html
 <img src="./attachments/Radeon-9700-Pro-box.jpg"
-    alt="ATI Radeon 9700 Pro" width="33%" align="right">
+    alt="[ATI Radeon 9700 Pro's retail box]" width="33%" align="right">
 ```
 
 **Zoomable floating image:**
@@ -174,7 +174,7 @@ Instead, block images must be centered and their width should be determined auto
 ```html
 <a href="./attachments/Radeon-9700-Pro-box.jpg">
     <img src="./attachments/thumbnails/Radeon-9700-Pro-box.jpg"
-        alt="ATI Radeon 9700 Pro" width="33%" align="left">
+        alt="[ATI Radeon 9700 Pro's retail box]" width="33%" align="left">
 </a>
 ```
 
@@ -183,7 +183,7 @@ Instead, block images must be centered and their width should be determined auto
 ```html
 <div align="center">
     <img src="./attachments/Radeon-9700-Pro-box.jpg"
-        alt="ATI Radeon 9700 Pro">
+        alt="[ATI Radeon 9700 Pro's retail box]">
 </div>
 ```
 
@@ -193,16 +193,31 @@ Instead, block images must be centered and their width should be determined auto
 <div align="center">
     <a href="./attachments/Radeon-9700-Pro-box.jpg">
         <img src="./attachments/thumbnails/Radeon-9700-Pro-box.jpg"
-            alt="ATI Radeon 9700 Pro">
+            alt="[ATI Radeon 9700 Pro's retail box]">
     </a>
 </div>
 ```
 
-![alt text](./embeds/logo96.png)
+### 12. Replace bar-graphs with table equivalents
 
+You may use _HTML_ tables or _markdown_ equivalent to re-crate the original bar-graphs on _github_:
 
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | <img src="./embeds/logo96.png" width="50%" height="10">  |
-| Content Cell  | <img src="./embeds/logo96.png" width="100%" height="10">  |
+<table align="center">
+    <thead>
+        <tr>
+            <th colspan="3" align="center">
+                Serious Sam 2<br>
+                Little Trouble @ 1024x768
+            </th>
+        </tr>
+    </thead>
+    <tbody
+    <tr>
+        <td>ATI Radeon 9700 Pro</td>
+        <td> 130.3</td>
+    </tr>
+    <tr>
+        <td>NVIDIA GeForce4 Ti 4600</td>
+        <td> 112.2</td>
+    </tr>
+</table>
