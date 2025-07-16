@@ -77,10 +77,11 @@ If the title is not in english, translate it appropriately using sensible capita
 first letter and acronyms in all-caps. This is highly subjective, so just try to make it look good. Use only _ASCII_
 letters, numbers and _hyphens_ (`0x2D`). Drop any other character. Avoid contiguous, trailing and leading _hyphens_.
 
-> Example: `"ATI-Radeon-9700-Pro-Delivering-as-promised"`<br>
-> Wrong: `"ATI-Radeon-9700-Pro--Delivering-as-promised"`<br>
-> Wrong: `"ATI-Radeon-9700-Pro-Delivering-as-promised-"`<br>
-> Wrong: `"-ATI-Radeon-9700-Pro-Delivering-as-promised"`<br>
+> Example: `ATI-Radeon-9700-Pro-Delivering-as-promised`<br>
+> Wrong: `ATI-Radeon-9700-Pro--Delivering-as-promised`<br>
+> Wrong: `ATI-Radeon-9700-Pro-Delivering-as-promised-`<br>
+> Wrong: `-ATI-Radeon-9700-Pro-Delivering-as-promised`<br>
+> Wrong: `ATI Radeon 9700 Pro - Delivering as promised`<br>
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
@@ -97,9 +98,9 @@ Create a folder whose name is the concatenation of the _ISO Date_, a _hyphen_, a
 Open the directory that was just created and stub the following sub-folders and files: `attachments/`,
 `screenshots/`, `readme.md`.
 
-> Example: `./archive/anandtech.com/2002-07-19-ATI-Radeon-9700-Pro-Delivering-as-promised/screenshots/`<br>
-> Example: `./archive/anandtech.com/2002-07-19-ATI-Radeon-9700-Pro-Delivering-as-promised/attachments/`<br>
-> Example: `./archive/anandtech.com/2002-07-19-ATI-Radeon-9700-Pro-Delivering-as-promised/readme.md`<br>
+> Example: `./archive/anandtech.com/2002-07-19-ATI-`...`-promised/screenshots/`<br>
+> Example: `./archive/anandtech.com/2002-07-19-ATI-`...`-promised/attachments/`<br>
+> Example: `./archive/anandtech.com/2002-07-19-ATI-`...`-promised/readme.md`<br>
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
@@ -110,9 +111,9 @@ the `screenshots` folder as `1.png` if there is only one page, `2.png` for the s
 Include such screenshots (or alternatively relevant source code fragments) even if the result is not "pretty", as these
 files are not meant to be read directly but kept for historical and attribution reasons.
 
-> Example: `./archive/anandtech.com/2002-07-19-ATI-Radeon-9700-Pro-Delivering-as-promised/screenshots/1.png`<br>
-> Example: `./archive/anandtech.com/2002-07-19-ATI-Radeon-9700-Pro-Delivering-as-promised/screenshots/2.txt`<br>
-> Example: `./archive/anandtech.com/2002-07-19-ATI-Radeon-9700-Pro-Delivering-as-promised/screenshots/3.htm`<br>
+> Example: `./archive/anandtech.com/2002-07-19-ATI-`...`-promised/screenshots/1.png`<br>
+> Example: `./archive/anandtech.com/2002-07-19-ATI-`...`-promised/screenshots/2.txt`<br>
+> Example: `./archive/anandtech.com/2002-07-19-ATI-`...`-promised/screenshots/3.htm`<br>
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
@@ -128,11 +129,11 @@ explained later in this guide.
 ```md
 # Article or guide title using the original language and formatting
 
-**URL:**      https://www.anandtech.com/show/970 <!-- Preferably a permalink, if any. -->
-**Date:**     YYYY-MM-DD                         <!-- ISO Dates... no 'murican dates. -->
-**Time:**     23:44 Europe/Rome                  <!-- Time is rarely important but you can include it if necessary. -->
-**Author:**   Anand Lal Shimpi                   <!-- The author, if known, otherwise omit this line. -->
-**Keywords:** Review, Khan                       <!-- Extra keywords; words not already included in the page's body. -->
+**URL:**      https://anandtech.com/show/970 <!-- Preferably a permalink, if any. -->
+**Date:**     YYYY-MM-DD                     <!-- ISO Dates... no 'murican dates. -->
+**Time:**     23:44 Europe/Rome              <!-- Time is rarely important but you can include it if necessary. -->
+**Author:**   Anand Lal Shimpi               <!-- The author, if known, otherwise omit this line. -->
+**Keywords:** Review, Khan                   <!-- Extra keywords; words not already included in the page's body. -->
 
 ## First paragraph/page title.
 
@@ -163,14 +164,16 @@ Floating images **must** have a _width_ of 33% and they can be attached to both 
 **Simple floating images:**
 
 ```html
-<img src="./attachments/Radeon-9700-Pro-Box.jpg" alt="ATI Radeon9700 Pro" width="33%" align="right">
+<img src="./attachments/Radeon-9700-Pro-Box.jpg"
+    alt="ATI Radeon 9700 Pro" width="33%" align="right">
 ```
 
 **Zoomable floating images:**
 
 ```html
 <a href="./attachments/Radeon-9700-Pro-Box.jpg">
-    <img src="./attachments/thumbnails/Radeon-9700-Pro-Box.jpg" alt="ATI Radeon9700 Pro" width="33%" align="left">
+    <img src="./attachments/thumbnails/Radeon-9700-Pro-Box.jpg"
+        alt="ATI Radeon 9700 Pro" width="33%" align="left">
 </a>
 ```
 
