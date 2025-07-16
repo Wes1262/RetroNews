@@ -15,3 +15,10 @@ sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds 
         <img src="./attachments/thumbnails/Radeon-9700-Pro-Box.jpg" alt="ATI Radeon9700 Pro">
     </a>
 </div>
+
+
+
+
+<a href="./attachments/Radeon-9700-Pro-Box.jpg">
+    <img src="./attachments/thumbnails/Radeon-9700-Pro-Box.jpg" alt="ATI Radeon9700 Pro">
+</a>
