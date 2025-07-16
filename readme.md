@@ -183,5 +183,5 @@ Floating images **must** have a _width_ of 33% and they can be attached to both 
 
 | First Header  | Second Header |
 | ------------- | ------------- |
-| Content Cell  | <img src="./embeds/logo96.png" width="50%" height="10">  |
+| Content Cell  | <img src="./embeds/logo96.png" width="50%" height="10" style="width:calc(1000% * 100% / 900%);">  |
 | Content Cell  | <img src="./embeds/logo96.png" width="100%" height="10">  |
