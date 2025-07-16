@@ -152,37 +152,50 @@ You can improve the result by embedding the original pictures in the document. D
 site and save them to the `attachments` folder. To name such files, use the same pattern previously used to _pathify_
 the document title. Use names that make sense, and that are easily searchable.
 
-> Example: `./archive/`...`/attachments/Radeon-9700-Pro.jpg`<br>
+> Example: `./archive/`...`/attachments/Radeon-9700-Pro-box.jpg`<br>
 
 You may generate smaller clickable thumbnails in the main document, by keeping them in the `thumbnails` folder. It is
 very unlikely that thumbnails are necessary though, as image resolution of old webpages is usually very low already.
 
-> Example: `./archive/`...`/attachments/thumbnails/Radeon-9700-Pro.png`<br>
+> Example: `./archive/`...`/attachments/thumbnails/Radeon-9700-Pro-box.png`<br>
 
 Floating images **must** have a _width_ of 33% and they can be attached to both the _left_ and _right_ margins.
-Full row centered
+Instead, block images must be centered and their width should be determined automatically by _github_.
 
-**Simple floating images:**
+**Simple floating image:**
 
 ```html
-<img src="./attachments/Radeon-9700-Pro-Box.jpg"
+<img src="./attachments/Radeon-9700-Pro-box.jpg"
     alt="ATI Radeon 9700 Pro" width="33%" align="right">
 ```
 
-**Zoomable floating images:**
+**Zoomable floating image:**
 
 ```html
-<a href="./attachments/Radeon-9700-Pro-Box.jpg">
-    <img src="./attachments/thumbnails/Radeon-9700-Pro-Box.jpg"
+<a href="./attachments/Radeon-9700-Pro-box.jpg">
+    <img src="./attachments/thumbnails/Radeon-9700-Pro-box.jpg"
         alt="ATI Radeon 9700 Pro" width="33%" align="left">
 </a>
 ```
 
-**Simple full row images:**
+**Simple block image:**
 
 ```html
-<img src="./attachments/thumbnails/Radeon-9700-Pro-Box.jpg"
-    alt="ATI Radeon 9700 Pro">
+<div align="center">
+    <img src="./attachments/thumbnails/Radeon-9700-Pro-box.jpg"
+        alt="ATI Radeon 9700 Pro">
+</div>
+```
+
+**Zoomable block image:**
+
+```html
+<div align="center">
+    <a href="./attachments/Radeon-9700-Pro-box.jpg">
+        <img src="./attachments/thumbnails/Radeon-9700-Pro-box.jpg"
+            alt="ATI Radeon 9700 Pro">
+    </a>
+</div>
 ```
 
 ![alt text](./embeds/logo96.png)
