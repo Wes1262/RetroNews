@@ -43,7 +43,7 @@ Fork this repository to your _github_ account, clone it to your computer if you 
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-### 3. Determine the _eTLD+1_
+### 3. Determine the _[^1]eTLD+1_
 Otherwise, identify the _eTLD+1_ of the page you want to archive. The _eTLD+1_ of a _URL_ is the _second level domain_
 part of the _URL_, plus its _eTLD_ suffix such as `.com`, `.net`, or `.co.uk`.
 
@@ -159,7 +159,7 @@ very unlikely that thumbnails are necessary though, as image resolution of old w
 
 > Example: `./archive/`...`/attachments/thumbnails/Radeon-9700-Pro-box.png`<br>
 
-Floating images **must** have a _width_ of 33% and they can be attached to both the _left_ and _right_ margins.
+Floating images **must** have a _width_ of `33%` and they can be attached to both the _left_ and _right_ margins.
 Instead, block images must be centered and their width should be determined automatically by _github_.
 
 **Simple floating image:**
@@ -200,7 +200,7 @@ Instead, block images must be centered and their width should be determined auto
 
 ### 12. Replace bar-graphs with table equivalents
 
-You may use _HTML_ tables or _markdown_ <abbr title="sdf">equivalent</abbr> to re-crate the original bar-graphs on _github_:
+You may use _HTML_ tables or _markdown_ equivalent to re-crate the original bar-graphs on _github_:
 
 <table align="center">
     <thead>
@@ -213,8 +213,8 @@ You may use _HTML_ tables or _markdown_ <abbr title="sdf">equivalent</abbr> to r
         <tr>
             <th>Graphics Card</th>
             <th width="300">Graph</th>
-            <th>Avg. FPS</th>
-            <th>% Delta</th>
+            <th>Avg. <abbr title="Frames per second">FPS</abbr></th>
+            <th><abbr title="Percentage difference">% Delta</abbr></th>
         </tr>
     </thead>
     <tbody
@@ -231,3 +231,11 @@ You may use _HTML_ tables or _markdown_ <abbr title="sdf">equivalent</abbr> to r
         <td>-13.89%</td>
     </tr>
 </table>
+
+
+
+
+
+
+
+[^1]: effective top level domain
