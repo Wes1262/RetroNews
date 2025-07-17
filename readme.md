@@ -43,15 +43,22 @@ Fork this repository to your _GitHub_ account, clone it to your computer if you 
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-### 3. Determine the _[^1]eTLD+1_
+### 3. Determine the _eTLD+1[^1]_
 Otherwise, identify the _eTLD+1_ of the page you want to archive. The _eTLD+1_ of a _URL_ is the _second level domain_
-part of the _URL_, plus its _eTLD_ suffix such as `.com`, `.net`, or `.co.uk`.
+part of the _URL_, plus its _eTLD_ suffix such as `.com`, `.net`, or `.co.uk`. If the domain is an _IDN[^2]_ use the
+_PunyCode[^2]_ version of it.
 
 > Example: `https://www.anandtech.com/show/970` is `anandtech.com`.<br>
-> Example: `https://forums.overclockers.co.uk/t/ati-radeon-x850-xt.../` is `overclockers.co.uk`.
+> Example: `https://forums.overclockers.co.uk/t/ati-radeon-x850-xt.../` is `overclockers.co.uk`.<br>
+> Example: `https://電腦領域.hk/94/高階G92雙晶片...` is `xn--rhqv96g.hk`
 
-[^1]: _Effective [^2]TLD plus one_. An _effective Top Level
-[^2]: Top Level Domain
+[^1]: _Effective Top Level Domains_ (_eTLDs_) are _TLDs_ like `.com`, `.net`, but also special _Second Level Domains_
+such as `.co.uk`, `.co.jp` and `.com.au`. An _eTLD+1_ is the concatenation of an _eTLD_ and the part that is registrable
+by a private entity — for example `overclockers.co.uk`.
+
+[^2]: _International Domain Name_; basically, web domain that is not made of english words, e.g. `人民网.com`.
+
+[^3]: _Punycode_ is an algorithm encoding international _Unicode_ text as simple _ASCII_ sequences.
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
@@ -67,8 +74,8 @@ In your local clone, head to the folder for such a _eTLD+1_, or create it if it 
 
 Determine the document's _ISO Date_ and note it down. If the date is not explicitly specified, try to guess it depending
 on the content of the page. E.g. a review for a new graphics card will be published shortly after the release of the
-card. If you can't determine with absolute certainty the day, the month, or even the year, replace the corresponding
-diGits with lowercase `x`s.
+card. However if you can't determine with absolute certainty the day, the month, or even the year, replace the
+corresponding digits with lowercase `x`s.
 
 > Example: `2002-07-19`, `2002-07-xx`, `2002-xx-xx`, `xxxx-xx-xx`
 
