@@ -21,8 +21,8 @@ this project is in no way affiliated with them. </small>
 
 If you are the owner of one the archived documents and you want them removed from this repository — first of all, are
 you sure you want us to forget old documents that are only significant to retro computer enthusiasts? If you are,
-contact us via the _Issues_ section and we will remove them promptly after proving your identity. You will be asked to
-send us an email from the same domain of the archived site, or via a similar method.
+contact us via the [Issues](./Issues/) section and we will remove them promptly after proving your identity. You will be
+asked to send us an email from the same domain of the archived site, or via a similar method.
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -32,14 +32,14 @@ send us an email from the same domain of the archived site, or via a similar met
 
 ### 1. Check for duplicates
 
-First of all, perform a search for the page(s) that you want to archive in this _github_ repository, as the page(s) might
-have been archived already!
+First of all, perform a search for the page(s) that you want to archive in this _GitHub_ repository, as the page(s)
+might have been archived already!
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-### 2. Prepare your _git_
+### 2. Prepare your _Git_
 
-Fork this repository to your _github_ account, clone it to your computer if you want.
+Fork this repository to your _GitHub_ account, clone it to your computer if you want.
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
@@ -50,7 +50,8 @@ part of the _URL_, plus its _eTLD_ suffix such as `.com`, `.net`, or `.co.uk`.
 > Example: `https://www.anandtech.com/show/970` is `anandtech.com`.<br>
 > Example: `https://forums.overclockers.co.uk/t/ati-radeon-x850-xt.../` is `overclockers.co.uk`.
 
-[^1]: effective top level domain
+[^1]: _Effective [^2]TLD plus one_. An _effective Top Level
+[^2]: Top Level Domain
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
@@ -67,7 +68,7 @@ In your local clone, head to the folder for such a _eTLD+1_, or create it if it 
 Determine the document's _ISO Date_ and note it down. If the date is not explicitly specified, try to guess it depending
 on the content of the page. E.g. a review for a new graphics card will be published shortly after the release of the
 card. If you can't determine with absolute certainty the day, the month, or even the year, replace the corresponding
-digits with lowercase `x`s.
+diGits with lowercase `x`s.
 
 > Example: `2002-07-19`, `2002-07-xx`, `2002-xx-xx`, `xxxx-xx-xx`
 
@@ -162,7 +163,7 @@ very unlikely that thumbnails are necessary though, as image resolution of old w
 > Example: `./archive/`...`/attachments/thumbnails/Radeon-9700-Pro-box.png`<br>
 
 Floating images **must** have a _width_ of `33%` and they can be attached to both the _left_ and _right_ margins.
-Instead, block images must be centered and their width should be determined automatically by _github_.
+Instead, block images must be centered and their width should be determined automatically by _GitHub_.
 
 **Simple floating image:**
 
@@ -202,7 +203,7 @@ Instead, block images must be centered and their width should be determined auto
 
 ### 12. Replace bar-graphs with table equivalents
 
-You may use _HTML_ tables or _markdown_ equivalent to re-crate the original bar-graphs on _github_:
+You may use _HTML_ tables or _markdown_ equivalent to re-crate the original bar-graphs on _GitHub_:
 
 <table align="center">
     <thead>
