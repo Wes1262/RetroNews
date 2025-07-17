@@ -50,6 +50,8 @@ part of the _URL_, plus its _eTLD_ suffix such as `.com`, `.net`, or `.co.uk`.
 > Example: `https://www.anandtech.com/show/970` is `anandtech.com`.<br>
 > Example: `https://forums.overclockers.co.uk/t/ati-radeon-x850-xt.../` is `overclockers.co.uk`.
 
+[^1]: effective top level domain
+
 <!--------------------------------------------------------------------------------------------------------------------->
 
 ### 4. Locate the base folder for the _eTLD+1_
@@ -233,9 +235,3 @@ You may use _HTML_ tables or _markdown_ equivalent to re-crate the original bar-
 </table>
 
 
-
-
-
-
-
-[^1]: effective top level domain
