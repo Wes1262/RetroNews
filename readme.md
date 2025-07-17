@@ -218,7 +218,7 @@ You may use _HTML_ tables or _markdown_ equivalent to re-crate the original bar-
             <th>Graphics Card</th>
             <th width="300">Graph</th>
             <th>Avg. FPS</th>
-            <th>% Delta[^2]</th>
+            <th>% Delta[^1]</th>
         </tr>
     </thead>
     <tbody
