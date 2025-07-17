@@ -37,7 +37,7 @@ sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds 
     </tr>
     <tr>
         <th>Graphics Card</th>
-        <th width="300">% Graph</th>
+        <th width="300">% Bar</th>
         <th>Avg. FPS</th>
         <th>% Delta</th>
     </tr>
