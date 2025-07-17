@@ -200,16 +200,12 @@ Instead, block images must be centered and their width should be determined auto
 
 ### 12. Replace bar-graphs with table equivalents
 
-You may use _HTML_ tables or _markdown_ equivalent to re-crate the original bar-graphs on _github_:
+You may use _HTML_ tables or _markdown_ <abbr title="sdf">equivalent</abbr> to re-crate the original bar-graphs on _github_:
 
 <table align="center">
-    <colgroup size="1" bgcolor="orange">
-        <col>
-        <col align="right">
-    </colgroup>
     <thead>
         <tr>
-            <th colspan="3" align="center">
+            <th colspan="4" align="center">
                 Serious Sam 2<br>
                 Little Trouble @ 1024x768
             </th>
@@ -218,6 +214,7 @@ You may use _HTML_ tables or _markdown_ equivalent to re-crate the original bar-
             <th>Graphics Card</th>
             <th width="300">Graph</th>
             <th>Avg. FPS</th>
+            <th>% Delta</th>
         </tr>
     </thead>
     <tbody
@@ -225,10 +222,12 @@ You may use _HTML_ tables or _markdown_ equivalent to re-crate the original bar-
         <td>ATI Radeon 9700 Pro</td>
         <td><img src="./embeds/16.png" height="10" width="100%" alt="100%"></td>
         <td>130.3</td>
+        <td>0%</td>
     </tr>
     <tr>
         <td>NVIDIA GeForce4 Ti 4600</td>
         <td><img src="./embeds/9.png" height="10" width="86%" alt="86.11%"></td>
         <td>112.2</td>
+        <td>-13.89%</td>
     </tr>
 </table>
