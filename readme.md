@@ -6,10 +6,10 @@
 
 <img src="./embeds/logo192.png" align="right">
 
-**Retro computer information has been steadily disappearing from the internet.** While _archive.org_ does an excellent
-job most of the time, archived pages can sometimes fail to save correctly or become unusable later on. This often
-happens due to the heavy use of JavaScript on these sites or, in some cases, major hardware failures at _archive.org_.
-**With this repository, we aim to manually preserve interesting news articles, guides, and resources for retro computing
+**Retro computer information has been disappearing from the internet.** While _archive.org_ does an excellent job most
+of the time, archived pages can sometimes fail to save correctly or become unusable later on. This often happens due to
+the heavy use of JavaScript on these sites or, in some cases, major hardware failures at _archive.org_. **With this
+repository, we aim to manually preserve interesting news articles, guides, and resources for retro computing
 enthusiasts, ensuring they remain accessible even when the original pages are lost.**
 
 <small>**Note:** despite sharing similar goals to _The Retro Web_'s, and despite having a deliberately similar logo,
@@ -21,8 +21,7 @@ this project is in no way affiliated with them. </small>
 
 If you are the owner of one the archived documents and you want them removed from this repository — first of all, are
 you sure you want us to forget old documents that are only significant to retro computer enthusiasts? If you are,
-contact us via the [Issues](./Issues/) section and we will remove them promptly after proving your identity. You will be
-asked to send us an email from the same domain of the archived site, or via a similar method.
+contact us via the [Issues](./Issues/) section and we will remove them promptly after proving your identity.
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -44,21 +43,14 @@ Fork this repository to your _GitHub_ account, clone it to your computer if you 
 <!--------------------------------------------------------------------------------------------------------------------->
 
 ### 3. Determine the _eTLD+1[^1]_
-Otherwise, identify the _eTLD+1_ of the page you want to archive. The _eTLD+1_ of a _URL_ is the _second level domain_
-part of the _URL_, plus its _eTLD_ suffix such as `.com`, `.net`, or `.co.uk`. If the domain is an _IDN[^2]_ use the
-_PunyCode[^2]_ version of it.
+Otherwise, identify the _eTLD+1_ of the page you want to archive. <!-- TBD IDNs -->
 
 > Example: `https://www.anandtech.com/show/970` is `anandtech.com`.<br>
 > Example: `https://forums.overclockers.co.uk/t/ati-radeon-x850-xt.../` is `overclockers.co.uk`.<br>
-> Example: `https://電腦領域.hk/94/高階G92雙晶片...` is `xn--rhqv96g.hk`
 
 [^1]: _Effective Top Level Domains_ (_eTLDs_) are _TLDs_ like `.com`, `.net`, but also special _Second Level Domains_
 such as `.co.uk`, `.co.jp` and `.com.au`. An _eTLD+1_ is the concatenation of an _eTLD_ and the part that is registrable
-by a private entity — for example `overclockers.co.uk`.
-
-[^2]: _International Domain Name_; basically, web domain that is not made of english words, e.g. `人民网.com`.
-
-[^3]: _Punycode_ is an algorithm encoding international _Unicode_ text as simple _ASCII_ sequences.
+by a private entity — for example `overclockers.co.uk` or `anandtech.com`.
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
