@@ -119,22 +119,24 @@ files are not meant to be read directly but kept for historical and attribution 
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-### 10. Convert the document to _Markdown_
+### 10. Optionally convert the document to _Markdown_
 
-Copy the following _Markdown_ structure to the `readme.md` file and edit it as explained. Keep everything original;
-do not translate the text to english, do not remove any typos, improve grammar or punctuation. If you feel an improved
-version of the text is absolutely required for the document to be useful, you can create a _corrected copy_, which is
-explained later in this guide.
+The screenshots are the most important thing, but a _Markdown_ version of the contents is highly appreciated, as it is
+much more pleasant to read. Copy the following _Markdown_ structure to the `readme.md` file and edit it as explained.
+Keep everything original; do not translate the text to english, do not remove any typos, do not improve grammar or
+punctuation. If you feel an improved version of the text is absolutely required for the document to be useful, you can
+create a _corrected copy_, which is explained later in this guide.
 
 **This file must have hard line wraps at 120 characters.**
 
 ```md
 # Article or guide title using the original language and formatting
 
+**Site:**     AnandTech                      <!-- Pretty version of the site's name.  -->
 **URL:**      https://anandtech.com/show/970 <!-- Preferably a permalink, if any. -->
 **Date:**     YYYY-MM-DD                     <!-- ISO Dates... no 'murican dates. -->
 **Time:**     23:44 Europe/Rome              <!-- Time is rarely important but you can include it if necessary. -->
-**Author:**   Anand Lal Shimpi               <!-- The author, if known, otherwise omit this line. -->
+**Author:**   Anand Lal Shimpi               <!-- The author if known, otherwise omit this line. -->
 **Keywords:** Review, Khan                   <!-- Extra keywords; words not already included in the page's body. -->
 
 ## First paragraph/page title.
@@ -148,7 +150,7 @@ Second paragraph/page text.
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-### 11. Improve the page with embed images
+### 11. Improve the _Markdown_ version with embed images
 
 You can improve the result by embedding the original pictures in the document. Download the images from the original
 site and save them to the `attachments` folder. To name such files, use the same pattern previously used to _pathify_
@@ -215,8 +217,8 @@ You may use _HTML_ tables or _markdown_ equivalent to re-crate the original bar-
         <tr>
             <th>Graphics Card</th>
             <th width="300">Graph</th>
-            <th>Avg. <abbr title="Frames per second">FPS</abbr></th>
-            <th><abbr title="Percentage difference">% Delta</abbr></th>
+            <th>Avg. FPS</th>
+            <th>% Delta[^2]</th>
         </tr>
     </thead>
     <tbody
