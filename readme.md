@@ -29,14 +29,14 @@ contact us via the [Issues](./Issues/) section and we will remove them promptly 
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-### 1. Check for duplicates
+### 1. :mag: Check for duplicates
 
 First of all, perform a search for the page(s) that you want to archive in this _GitHub_ repository, as the page(s)
 might have been archived already!
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-### 2. Prepare your _Git_
+### :hammer: 2. Prepare your _Git_
 
 Note: If you are not familiar with _Git_ you should consider getting _Atlassian SourceTree_, which is very easy to use
 and does most things automatically, including installing _Git_ and _Git LFS_ (both required).
