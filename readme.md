@@ -29,7 +29,7 @@ contact us via the [Issues](./Issues/) section and we will remove them promptly 
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-### 1. :mag: Check for duplicates
+### :mag: 1. Check for duplicates
 
 First of all, perform a search for the page(s) that you want to archive in this _GitHub_ repository, as the page(s)
 might have been archived already!
@@ -80,7 +80,7 @@ Now you should add the cloned repository to _SourceTree_ as shown in the image.
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-### 3. Determine the _eTLD+1[^1]_
+### :globe_with_meridians: 3. Determine the _eTLD+1[^1]_
 Otherwise, identify the _eTLD+1_ of the page you want to archive. <!-- TBD IDNs -->
 
 > Example: `https://www.anandtech.com/show/970` is `anandtech.com`.<br>
@@ -92,7 +92,7 @@ by a private entity — for example `overclockers.co.uk` or `anandtech.com`.
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-### 4. Locate the base folder for the _eTLD+1_
+### :file_folder: 4. Locate the base folder for the _eTLD+1_
 
 In your local clone, head to the folder for such a _eTLD+1_, or create it if it doesn't exist.
 
@@ -100,7 +100,7 @@ In your local clone, head to the folder for such a _eTLD+1_, or create it if it 
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-### 5. Determine the date of the document
+### :calendar: 5. Determine the date of the document
 
 Determine the document's _ISO Date_ and note it down. If the date is not explicitly specified, try to guess it depending
 on the content of the page. E.g. a review for a new graphics card will be published shortly after the release of the
@@ -111,7 +111,7 @@ corresponding digits with lowercase `x`s.
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-### 6. Create a _pathified_ version of the document's title
+### :pencil2: 6. Create a _pathified_ version of the document's title
 
 If the title is not in english, translate it appropriately using sensible capitalization; i.e. own-names with capital
 first letter and acronyms in all-caps. This is highly subjective, so just try to make it look good. Use only _ASCII_
@@ -125,7 +125,7 @@ letters, numbers and _hyphens_ (`0x2D`). Drop any other character. Avoid contigu
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-### 7. Create the base folder for the document
+### :file_folder: 7. Create the base folder for the document
 
 Create a folder whose name is the concatenation of the _ISO Date_, a _hyphen_, and the "_pathified_" title.
 
@@ -133,7 +133,7 @@ Create a folder whose name is the concatenation of the _ISO Date_, a _hyphen_, a
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-### 8. Create the file structure for the document
+### :pencil: 8. Create the file structure for the document
 
 Open the directory that was just created and stub the following sub-folders and files: `attachments/`,
 `screenshots/`, `readme.md`.
@@ -144,7 +144,7 @@ Open the directory that was just created and stub the following sub-folders and 
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-### 9. Archive the screenshots of the document
+### :camera: 9. Archive the screenshots of the document
 
 Create "_full-page screenshots_" using _Chrome Dev Tools_ (or equivalent) of the relevant page(s), and save them into
 the `screenshots` folder as `1.png` if there is only one page, `2.png` for the second page, `3.png` for the third, etc.
@@ -155,7 +155,7 @@ files are not meant to be read directly but kept for historical and attribution 
 > Example: `./archive/anandtech.com/2002-07-19-ATI-`...`-promised/screenshots/2.txt`<br>
 > Example: `./archive/anandtech.com/2002-07-19-ATI-`...`-promised/screenshots/3.htm`<br>
 
-### 10. Archive the images and other small attachments
+### :books: 10. Archive the images and other small attachments
 
 Download the images from the original site and save them to the `attachments` folder. To name such files, use the same
 pattern previously used to _pathify_ the document title. Use names that make sense, and that are easily searchable.
