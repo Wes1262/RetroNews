@@ -49,14 +49,14 @@ cd RetroNews
 git config lfs.skipSmudge true
 ```
 
-The extra variable will prevent _Git_ from downloading files such as large binaries or `zip` archives automatically. If
-you want to explicitly download such files, also run the following:
+The extra `skipSmudge` variable will prevent _Git_ from downloading files such as large binaries or `zip` archives
+automatically. If you want to explicitly download all of such files, also run the following:
 
 ```bash
 git lfs pull
 ```
 
-If you want to download only some of the large files, use:
+If you want to download only some of the large files, specify their directory:
 
 ```bash
 git lfs pull -I "archive/anandtech.com/2002-07-19-ATI-Radeon-9700-Pro-Delivering-as-promised/"
