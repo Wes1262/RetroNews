@@ -34,30 +34,32 @@ contact us via the [Issues](./Issues/) section and we will remove them promptly 
 First of all, perform a search for the page(s) that you want to archive in this _GitHub_ repository, as the page(s)
 might have been archived already.
 
-Then, carefully evaluate whether archiving such files is actually necessary or a good idea. For example you probably
-should not archive a _Youtube_ video, as _Google_ uses highly redundant, distributed systems and multiple layers of
-backup to prevent data loss from hardware failures. But you _might_ want to archive a video hosted on a very old
-computer hardware site that is falling apart. However, sometimes even very healthy-looking sites disappear all of a
-sudden from the _Interwebs_. Therefore, use your best judgement. But mainly, don't archive tools or pages whose authors
-are clearly still making money off from. Archive info that is very abandoned, hard to find and has little to no
-redundancy.
+Then, carefully evaluate whether archiving such files is actually necessary or whether it is a good idea. For example
+you probably should not archive a _Youtube_ video, as _Google_ uses highly redundant, distributed systems and multiple
+layers of backup to prevent data loss from hardware failures. But you _might_ want to archive a video hosted on a very
+old computer hardware site that is fading away. However, sometimes even very healthy-looking sites disappear all of a
+sudden from the _Interwebs_. It depends. Therefore, use your best judgement. But mainly, don't try to archive tools or
+pages whose authors are clearly still making money off from. Archive info that is very abandoned, hard to find and has
+little to no redundancy.
 
 Alternatively, you may create a version of the same document using wording of your own. In other words, you are allowed
-to create derivative content out of information that is publicly available. This is covered in more detail later in this
-guide.
+to create derivative content out of information that is publicly available without using exact copies. This is covered
+in more detail later in this guide.
 
-Final option, you can ask us to archive a specific _URL_ for you. This however might take a long time as it is volunteer
-work.
+Final option, you can ask us to archive a specific _URL_ for you. This however might take a long time, as it is
+volunteer work. So please don't expect miracles from us.
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
 ### :hammer: 2. Prepare your _Git_
 
-<img src="./embeds/GitHub_fork.png" alt="[GitHub's 'Fork' button]" align="right">
+<img src="./embeds/GitHub-fork.png" alt="[GitHub's 'Fork' button]" align="right">
 
 If you want to go ahead and archive a new document, you have to start with _Git_ and get a _GitHub_ account (it's free).
 
 _Git_ can look daunting, but the risk of catastrophic outcomes is minimal, so you are welcome to learn at your own pace.
+
+<img src="./embeds/Atlassian-logo.png" alt="[GitHub's 'Fork' button]" align="left">
 
 You should consider getting _Atlassian SourceTree_, which is very easy to use and does most _Git_ things automatically,
 including installing _Git_ (and _Git LFS_) itself, which is the very first step of setting up your local repository.
