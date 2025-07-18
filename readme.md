@@ -38,6 +38,8 @@ might have been archived already!
 
 ### :hammer: 2. Prepare your _Git_
 
+<img src="./embeds/GitHub_fork.png" alt="[GitHub's 'Fork' button]" align="right">
+
 Note: If you are not familiar with _Git_ you should consider getting _Atlassian SourceTree_, which is very easy to use
 and does most things automatically, including installing _Git_ and _Git LFS_ (both required).
 
