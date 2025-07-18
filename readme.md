@@ -45,6 +45,8 @@ Start by forking this repository to your _GitHub_ account. Then clone your fork 
 
 ```bash
 GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/YourGitHubUsername/RetroNews
+cd RetroNews
+git config lfs.skipSmudge true
 ```
 
 The extra variable will prevent _Git_ from downloading files such as large binaries or `zip` archives automatically. If
@@ -52,6 +54,12 @@ you want to explicitly download such files, also run the following:
 
 ```bash
 git lfs pull
+```
+
+If you want to download only some of the large files, use:
+
+```bash
+git lfs pull -I "archive/anandtech.com/2002-07-19-ATI-Radeon-9700-Pro-Delivering-as-promised/"
 ```
 
 The repository already includes a `.gitattributes` file configuring which files are to be tracked by _Git LFS_, so you
