@@ -41,29 +41,42 @@ might have been archived already!
 Note: If you are not familiar with _Git_ you should consider getting _Atlassian SourceTree_, which is very easy to use
 and does most things automatically, including installing _Git_ and _Git LFS_ (both required).
 
-Start by forking this repository to your _GitHub_ account. Then clone your fork to your PC using the following command:
+Start by forking this repository to your _GitHub_ account.
+
+Now, clone your fork to your PC using the following commands, one row at a time:
 
 ```bash
-GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/YourGitHubUsername/RetroNews
-cd RetroNews
+cd "D:\RetroComputers\Repositories"
+GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/YourGitHubAccount/RetroNews MyRetroNews
+cd MyRetroNews
 git config lfs.skipSmudge true
 ```
 
-The extra `skipSmudge` variable will prevent _Git_ from downloading files such as large binaries or `zip` archives
-automatically. If you want to explicitly download all of such files, also run the following:
+<img src="./embeds/SourceTree-add.png" alt="[SourceTree 'Add' a repository tab]" align="right">
+
+Unfortunately these extra manual steps are necessary at the moment because `SourceTree` has only minimal _Git LFS_
+support. If a normal `clone` is performed, _Git_ will download every file including very large ones such as archives and
+executables. However, if this is exactly what you are trying to accomplish, you may download the rest of the files, even
+the very large ones by running the following command:
 
 ```bash
 git lfs pull
 ```
 
-If you want to download only some of the large files, specify their directory:
+And if you want to download only some of the very large files, you may specify their directory:
 
 ```bash
 git lfs pull -I "archive/anandtech.com/2002-07-19-ATI-Radeon-9700-Pro-Delivering-as-promised/"
 ```
 
-The repository already includes a `.gitattributes` file configuring which files are to be tracked by _Git LFS_, so you
-don’t need to set this up yourself.
+Finally if you want _Git_ to always download the large files without your explicit request, you may unset the
+`skipSmudge` configuration via the terminal:
+
+```bash
+git config lfs.skipSmudge false
+```
+
+Now you should add the cloned repository to _SourceTree_ as shown in the image.
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
