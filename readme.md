@@ -62,7 +62,7 @@ _Git_ can look daunting, but the risk of catastrophic outcomes is minimal, so yo
 <img src="./embeds/Atlassian-logo.png" alt="[GitHub's 'Fork' button]" align="left">
 
 You should consider getting _Atlassian SourceTree_, which is very easy to use and does most _Git_ things automatically,
-including installing _Git_ (and _Git LFS_) itself, which is the very first step of setting up your local repository.
+including installing _Git_ itself (and _Git LFS_), which is the very first step of setting up your local repository.
 
 Once that is done, _fork_ (i.e. copy) this repository to your _GitHub_ account using the _Fork_ button at the top of
 this page. You have no direct write access to this repository, but you can do edits on your own copy (i.e. your _fork_).
@@ -79,9 +79,9 @@ git config lfs.skipSmudge true
 <img src="./embeds/SourceTree-add.png" alt="[SourceTree 'Add' a repository tab]" align="right">
 
 Unfortunately these extra manual steps are necessary at the moment because `SourceTree` has only minimal _Git LFS_
-support. If a normal `clone` is performed, _Git_ would download every single file, including the very large ones such as
-archives and executables. However, if this is exactly what you are trying to accomplish, you may download the rest of
-the files, even the very large ones, by running the following command:
+support. If a normal `clone` were to be performed, _Git_ would download every single file, including the very large ones
+such as archives and executables. However, if this is exactly what you are trying to accomplish, you may download the
+rest of the files, even the very large ones, by running the following command afterwards:
 
 ```bash
 git lfs pull
@@ -93,20 +93,22 @@ And if you want to download only some of the very large files, you may specify t
 git lfs pull -I "archive/anandtech.com/2002-07-19-ATI-Radeon-9700-Pro-Delivering-as-promised/"
 ```
 
-Finally if you want _Git_ to always download the large files without your explicit request, you may unset the
+Finally, if you instead want _Git_ to always download the large files without your explicit request, you may unset the
 `skipSmudge` configuration via the terminal:
 
 ```bash
 git config lfs.skipSmudge false
 ```
 
-Now you should add the cloned repository to _SourceTree_ as shown in the image.
+To finish this step, you may load the cloned repository into _SourceTree_, as shown in the image.
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
 ### :globe_with_meridians: 3. Determine the _eTLD+1[^1]_
 
-Identify the _eTLD+1_ of the page you want to archive. <!-- TBD IDNs -->
+Now that you are all set-up with _Git_, you can proceed to archive the desired documents.
+
+Start by identifying the _eTLD+1_ of the page you want to archive. <!-- TBD IDNs -->
 
 > Example: `https://www.anandtech.com/show/970` is `anandtech.com`.<br>
 > Example: `https://forums.overclockers.co.uk/t/ati-radeon-x850-xt.../` is `overclockers.co.uk`.<br>
