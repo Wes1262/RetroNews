@@ -29,10 +29,15 @@ contact us via the [Issues](./Issues/) section and we will remove them promptly 
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
-### :mag: 1. Check for duplicates
+### :mag: 1. Check for duplicates and evaluate whether to archive
 
 First of all, perform a search for the page(s) that you want to archive in this _GitHub_ repository, as the page(s)
-might have been archived already!
+might have been archived already. Then, carefully evaluate whether archiving such files is actually necessary. For
+example you probably should not archive a _Youtube_ video, as _Google_ uses highly redundant, distributed systems and
+multiple layers of backup to prevent data loss from hardware failures. But you _might_ want to archive a video hosted on
+a very old computer hardware site that is falling apart. However, sometimes even very healthy-looking sites disappear
+all of a sudden from the Interwebs. Therefore, use your best judgement. Don't archive tools or pages people is clearly
+still making money off from. Archive info that is hard to find and has no redundancy. Alternatively 
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
@@ -83,7 +88,8 @@ Now you should add the cloned repository to _SourceTree_ as shown in the image.
 <!--------------------------------------------------------------------------------------------------------------------->
 
 ### :globe_with_meridians: 3. Determine the _eTLD+1[^1]_
-Otherwise, identify the _eTLD+1_ of the page you want to archive. <!-- TBD IDNs -->
+
+Identify the _eTLD+1_ of the page you want to archive. <!-- TBD IDNs -->
 
 > Example: `https://www.anandtech.com/show/970` is `anandtech.com`.<br>
 > Example: `https://forums.overclockers.co.uk/t/ati-radeon-x850-xt.../` is `overclockers.co.uk`.<br>
