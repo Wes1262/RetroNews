@@ -57,9 +57,9 @@ git config lfs.skipSmudge true
 <img src="./embeds/SourceTree-add.png" alt="[SourceTree 'Add' a repository tab]" align="right">
 
 Unfortunately these extra manual steps are necessary at the moment because `SourceTree` has only minimal _Git LFS_
-support. If a normal `clone` is performed, _Git_ will download every file including very large ones such as archives and
-executables. However, if this is exactly what you are trying to accomplish, you may download the rest of the files, even
-the very large ones by running the following command:
+support. If a normal `clone` is performed, _Git_ would download every single file, including the very large ones such as
+archives and executables. However, if this is exactly what you are trying to accomplish, you may download the rest of
+the files, even the very large ones, by running the following command:
 
 ```bash
 git lfs pull
