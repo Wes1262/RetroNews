@@ -38,7 +38,24 @@ might have been archived already!
 
 ### 2. Prepare your _Git_
 
-Fork this repository to your _GitHub_ account, clone it to your computer if you want.
+Note: If you are not familiar with _Git_ you should consider getting _Atlassian SourceTree_, which is very easy to use
+and does most things automatically, including installing _Git_ and _Git LFS_ (both required).
+
+Start by forking this repository to your _GitHub_ account. Then clone your fork to your PC using the following command:
+
+```bash
+GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/YourGitHubUsername/RetroNews
+```
+
+The extra variable will prevent _Git_ from downloading files such as large binaries or `zip` archives automatically. If
+you want to explicitly download such files, also run the following:
+
+```bash
+git lfs pull
+```
+
+The repository already includes a `.gitattributes` file configuring which files are to be tracked by _Git LFS_, so you
+don’t need to set this up yourself.
 
 <!--------------------------------------------------------------------------------------------------------------------->
 
@@ -117,17 +134,32 @@ files are not meant to be read directly but kept for historical and attribution 
 > Example: `./archive/anandtech.com/2002-07-19-ATI-`...`-promised/screenshots/2.txt`<br>
 > Example: `./archive/anandtech.com/2002-07-19-ATI-`...`-promised/screenshots/3.htm`<br>
 
+### 10. Archive the images and other small attachments
+
+Download the images from the original site and save them to the `attachments` folder. To name such files, use the same
+pattern previously used to _pathify_ the document title. Use names that make sense, and that are easily searchable.
+
+> Example: `./archive/`...`/attachments/Radeon-9700-Pro-box.jpg`
+
+Similarly, you may also include other attachments such as _PDF_ files.
+
+> Example: `./archive/`...`/attachments/Samsung-K4D26323RA.pdf`
+
+### 11. Archive binaries and other large files
+
+Using the same pattern for filenames, you may also archive medium-sized files using _Git LFS_, which is enabled (as per
+`.gitattributes`) for the following extensions: `exe`, `zip`, `rar`, `tar.gz`, `msi`.
+
 <!--------------------------------------------------------------------------------------------------------------------->
 
 ### 10. Optionally convert the document to _Markdown_
 
-The screenshots are the most important thing, but a _Markdown_ version of the contents is highly appreciated, as it is
-much more pleasant to read. Copy the following _Markdown_ structure to the `readme.md` file and edit it as explained.
-Keep everything original; do not translate the text to english, do not remove any typos, do not improve grammar or
-punctuation. If you feel an improved version of the text is absolutely required for the document to be useful, you can
-create a _corrected copy_, which is explained later in this guide.
+Converting the page to _Markdown_ is optional but highly appreciated. Copy the following _Markdown_ structure to the
+`readme.md` file and edit it as explained. Keep everything original; do not translate the text to english, do not remove
+any typos, do not improve grammar or punctuation. If you feel an improved version of the text is absolutely required for
+the document to be useful, you can create a _corrected copy_, which is explained later in this guide.
 
-**This file must have hard line wraps at 120 characters.**
+**This file (and all the other _Markdown_ derivatives) must have hard line wraps at 120 characters.**
 
 ```md
 # Article or guide title using the original language and formatting
@@ -152,14 +184,11 @@ Second paragraph/page text.
 
 ### 11. Improve the _Markdown_ version with embed images
 
-You can improve the result by embedding the original pictures in the document. Download the images from the original
-site and save them to the `attachments` folder. To name such files, use the same pattern previously used to _pathify_
-the document title. Use names that make sense, and that are easily searchable.
+You can improve the result by embedding in the document the images that were archived previously.
 
-> Example: `./archive/`...`/attachments/Radeon-9700-Pro-box.jpg`<br>
-
-You may generate smaller clickable thumbnails in the main document, by keeping them in the `thumbnails` folder. It is
-very unlikely that thumbnails are necessary though, as image resolution of old webpages is usually very low already.
+If needed, you may generate smaller clickable thumbnails in the main document, by keeping them in the `thumbnails`
+folder. However, it is very unlikely that thumbnails will be necessary, as image resolution of old webpages is usually
+very low already.
 
 > Example: `./archive/`...`/attachments/thumbnails/Radeon-9700-Pro-box.png`<br>
 
@@ -202,9 +231,9 @@ Instead, block images must be centered and their width should be determined auto
 </div>
 ```
 
-### 12. Replace bar-graphs with table equivalents
+### 12. Improve the _Markdown_ version with bar graphs
 
-You may use _HTML_ tables or _markdown_ equivalent to recreate the original bar-graphs on _GitHub_:
+You may use _HTML_ tables (or the _Markdown_ equivalent) to recreate the original bar-graphs on _GitHub_:
 
 ```md
 <table align="center">
@@ -263,11 +292,11 @@ Results in:
     </table>
 </blockquote>
 
-The appearance of the bar graphs doesn't have to look identical to the original but can be adjusted to match _GitHub_'s
+The appearance of the bar graphs doesn't have to be identical to the original, but can be adjusted to match _GitHub_'s
 look and feel. Additionally, you may change or improve how the information is presented, as long the underlying data is
 not altered.
 
 Each bar must have a `width` between `0%` and `100%` and a height of `10`. The `alt` attribute must mirror the value of
-`width`. There are 16 colors available in the bars, plus a gray one. They are all located in the `embeds` folder.
+`width`. There are 16 colors available for the bars, plus a gray one, all located in the `embeds` folder.
 
 The bar column must be have a width between `200` and `300`, e.g. `<th width="300">% Graph</th>`.

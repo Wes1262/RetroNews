@@ -1,15 +1,12 @@
 # Hello
 
-
-
-<img src="./attachments/thumbnails/Radeon-9700-Pro-box.jpg"
-    alt="ATI Radeon 9700 Pro" width="33%" align="right">
+<img src="./attachments/Radeon-9700-Pro-box.jpg"
+    alt="[ATI Radeon 9700 Pro's retail box]" width="33%" align="right">
 
 <a href="./attachments/Radeon-9700-Pro-box.jpg">
     <img src="./attachments/thumbnails/Radeon-9700-Pro-box.jpg"
-        alt="ATI Radeon 9700 Pro" width="33%" align="left">
+        alt="[ATI Radeon 9700 Pro's retail box]" width="33%" align="left">
 </a>
-
 
 sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds
 sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds
@@ -20,16 +17,17 @@ sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds sddsfdfds 
 
 
 <div align="center">
-    <img src="./attachments/thumbnails/Radeon-9700-Pro-box.jpg"
-        alt="ATI Radeon 9700 Pro">
+    <img src="./attachments/Radeon-9700-Pro-box.jpg"
+        alt="[ATI Radeon 9700 Pro's retail box]">
 </div>
 
 <div align="center">
     <a href="./attachments/Radeon-9700-Pro-box.jpg">
         <img src="./attachments/thumbnails/Radeon-9700-Pro-box.jpg"
-            alt="ATI Radeon 9700 Pro">
+            alt="[ATI Radeon 9700 Pro's retail box]">
     </a>
 </div>
+
 
 <table align="center">
     <tr>
